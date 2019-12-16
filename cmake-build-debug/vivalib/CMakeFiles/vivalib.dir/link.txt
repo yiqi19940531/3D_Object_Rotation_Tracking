@@ -1,0 +1,2 @@
+/usr/bin/ar qc libvivalib.a  CMakeFiles/vivalib.dir/channel.cpp.o CMakeFiles/vivalib.dir/input.cpp.o CMakeFiles/vivalib.dir/listener.cpp.o CMakeFiles/vivalib.dir/output.cpp.o CMakeFiles/vivalib.dir/utils.cpp.o CMakeFiles/vivalib.dir/viva.cpp.o
+/usr/bin/ranlib libvivalib.a

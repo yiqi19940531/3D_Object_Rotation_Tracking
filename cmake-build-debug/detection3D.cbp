@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="detection3D"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\vivalib\;CMake Files\detectionlib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yiqi/Desktop/detection3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yiqi/Desktop/detection3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detection3D">
+				<Option output="/home/yiqi/Desktop/detection3D/cmake-build-debug/detection3D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yiqi/Desktop/detection3D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/vivalib"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/detectionlib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 detection3D"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detection3D/fast">
+				<Option output="/home/yiqi/Desktop/detection3D/cmake-build-debug/detection3D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yiqi/Desktop/detection3D/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/vivalib"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/detectionlib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 detection3D/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yiqi/Desktop/detection3D/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vivalib">
+				<Option output="/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib/libvivalib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/vivalib"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/detectionlib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib/Makefile&quot;  VERBOSE=1 vivalib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vivalib/fast">
+				<Option output="/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib/libvivalib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/vivalib"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/detectionlib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib/Makefile&quot;  VERBOSE=1 vivalib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/vivalib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detectionlib">
+				<Option output="/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib/libdetectionlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/vivalib"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/detectionlib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib/Makefile&quot;  VERBOSE=1 detectionlib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="detectionlib/fast">
+				<Option output="/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib/libdetectionlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/vivalib"/>
+					<Add directory="/home/yiqi/Desktop/detection3D/detectionlib"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib/Makefile&quot;  VERBOSE=1 detectionlib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/yiqi/Desktop/detection3D/cmake-build-debug/detectionlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/EMEstimator.cpp">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/ObjectRotator.cpp">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/ObjectRotator.h">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/cameraCalibration.cpp">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/cameraCalibration.h">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/cvRANSAC.cpp">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/cvRANSAC.h">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/extractRotationMatrix.cpp">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/extractRotationMatrix.h">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/kalmanForRotMat.cpp">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/ObjectRotator/kalmanForRotMat.h">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/SPaRTa.c">
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/SPaRTaSSE.c">
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/bitcount.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/bitcount.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/brief.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/brief.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/classifier.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/classifier.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/feature.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/feature.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/ferns.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/ferns.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/hest.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/index.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/index.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/kalman.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/kalman.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/objectdetector.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/objectdetector.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/odetector.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/rfast.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/rfast.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/training.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/training.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/utils.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/warping.cpp">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/warping.h">
+			<Option target="detection3D"/>
+			<Option target="detectionlib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/main.cpp">
+			<Option target="detection3D"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/channel.cpp">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/channel.h">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/direntVS.h">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/input.cpp">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/input.h">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/listener.cpp">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/listener.h">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/output.cpp">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/output.h">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/utils.cpp">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/utils.h">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/viva.cpp">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/viva.h">
+			<Option target="vivalib"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/vivalib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vivalib\"/>
+		</Unit>
+		<Unit filename="/home/yiqi/Desktop/detection3D/detectionlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\detectionlib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

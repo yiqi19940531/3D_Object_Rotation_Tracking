@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yiqi/Desktop/3d/detection3D-master/detectionlib/SPaRTa.c
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+stdint.h
+-
+limits.h
+-
+math.h
+-
+
+/home/yiqi/Desktop/3d/detection3D-master/detectionlib/SPaRTaSSE.c
+stdlib.h
+-
+string.h
+-
+stddef.h
+-
+stdint.h
+-
+limits.h
+-
+math.h
+-
+emmintrin.h
+-
+

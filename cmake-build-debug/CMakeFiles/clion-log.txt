@@ -1,0 +1,18 @@
+/home/yiqi/Desktop/clion/clion-2019.1.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/yiqi/Desktop/detection3D
+-- Project Name: detection3D
+--     OpenCV version: 2.4.13.6 
+--     OpenCV libraries: opencv_videostab;opencv_video;opencv_ts;opencv_superres;opencv_stitching;opencv_photo;opencv_ocl;opencv_objdetect;opencv_nonfree;opencv_ml;opencv_legacy;opencv_imgproc;opencv_highgui;opencv_gpu;opencv_flann;opencv_features2d;opencv_core;opencv_contrib;opencv_calib3d
+--     OpenCV include path: /usr/local/include/opencv;/usr/local/include
+-- 
+--     OpenGL libraries: /usr/lib/x86_64-linux-gnu/libGL.so;/usr/lib/x86_64-linux-gnu/libGLU.so
+--     OpenGL include path: /usr/include
+-- 
+--     GLEW libraries: /usr/lib/x86_64-linux-gnu/libGLEW.so
+--     GLEW include path: /usr/include
+-- 
+--     GLFW libraries: /usr/lib/x86_64-linux-gnu/libglfw.so
+--     GLFW include path: /usr/include
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yiqi/Desktop/detection3D/cmake-build-debug
