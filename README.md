@@ -1,4 +1,5 @@
 # 3D_Object_Rotation_Tracking
+<<<<<<< HEAD
 
 Run this project you need library:
 1. OpenCV (2.4.13.6)
@@ -16,3 +17,4 @@ Some references for this project:
 3. https://docs.google.com/document/d/1ZYB-8OhFVDKwF4kI06m6nhYWc0qr_rpC6eacFeaay5U/edit?usp=sharing
 
 My E-mail address: (yzhan603@uottawa.ca) fell free to ask me question! 
+
